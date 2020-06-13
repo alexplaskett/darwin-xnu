@@ -164,5 +164,7 @@ STUB(kern_pbufpool_alloc_buffer);
 STUB(kern_pbufpool_alloc_buffer_nosleep);
 STUB(kern_pbufpool_free_buffer);
 STUB(kern_segment_get_index);
+STUB(bpf_tap_packet_out);
+STUB(bpf_tap_packet_in);
 #undef STUB
 #endif /* !SKYWALK */
